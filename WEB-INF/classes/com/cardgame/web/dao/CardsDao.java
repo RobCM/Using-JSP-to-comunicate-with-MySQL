@@ -18,7 +18,7 @@ public class CardsDao
     	 try
     	 {
     		 Class.forName("com.mysql.cj.jdbc.Driver");
-    		 Connection con = DriverManager.getConnection("jdbc:mysql://localhost/warcards", "root", "karadura23");
+    		 Connection con = DriverManager.getConnection("jdbc:mysql://localhost/warcards", "root", "password");
     		 Statement state =con.createStatement();
     		 // SQL query for data on the database
     		 ResultSet result = state.executeQuery("select * from  the_cards where id=" + id);
