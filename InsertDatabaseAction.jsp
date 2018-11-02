@@ -25,7 +25,7 @@
 			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 			 if(the_title !=null && the_civi !=null)
 			 {
-			 	conn = DriverManager.getConnection(host,"root","karadura23");
+			 	conn = DriverManager.getConnection(host,"root","password");
 			 	String data = "INSERT INTO the_cards(id,title,civi,rank) values(?,?,?,?)";
 			 	stat = conn.prepareStatement(data);
 			 	stat.setInt(1,the_id);
