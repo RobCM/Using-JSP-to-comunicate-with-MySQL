@@ -1,15 +1,41 @@
 
+/* Div's attributes */
+#loginBox{
+   	background-color: #6ecae6; 
+   	border: none;
+   	padding: 20px;
+   	margin-left: 50px;
+  	width: 620px;
+   	height: 300px; 
+    /* Object shadow*/
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+}
+/* Text and input box attributes */
+h2{
+	text-transform: uppercase;
+}
+p{
+   	margin-left: 25px;
+}
+input{
+	margin-left: 25px;
+}
+/* Image attributes */
+#image{
+	margin-left: 250px;
+	width: 300px;
+   	height: 150px; 
+}
 /* Button's look */
 #subData{
-   background-color: #b9b7b6; 
-   border: none;
-   margin-left: 25px; 
+   	background-color: #b9b7b6; 
+   	border: none;
+   	margin-left: 5px; 
 }
 #Inputcard{
-   background-color: green; 
-   border: none;
-   margin-left: 190px; 
-   margin-top: 8px; 
-   margin-right: 45px; 
+   	background-color: green; 
+   	border: none;
+   	margin-left: 190px; 
+   	margin-top: 8px; 
+   	margin-right: 45px; 
 }
-
