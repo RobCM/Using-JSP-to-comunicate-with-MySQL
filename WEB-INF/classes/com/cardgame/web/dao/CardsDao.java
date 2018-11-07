@@ -1,7 +1,8 @@
 package com.cardgame.web.dao;
 /*
  * Communicate with the database
- */
+ * @robert Coleman
+*/
 import java.sql.*;
 import com.cardgame.web.model.Cards;
 
