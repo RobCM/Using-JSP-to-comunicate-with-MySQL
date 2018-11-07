@@ -1,5 +1,7 @@
 package com.cardgame.web.model;
-
+/*
+*@robert Coleman
+*/
 public class Cards 
 {
 	// Variables!
