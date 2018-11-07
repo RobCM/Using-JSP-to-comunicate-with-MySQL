@@ -12,7 +12,7 @@ import com.cardgame.web.model.Cards;
 
 /**
  * Servlet implementation class GetCardsController
- * 
+ * @robert Coleman
  */
 public class GetCardsController extends HttpServlet 
 {
