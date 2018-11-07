@@ -10,30 +10,25 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <h3>New Card Info!</h3>
-      <p>Here you can enter a new card for the game to be save on the database.</p>
+      <h2>New Card Info!</h2>
       
-      <form action="InsertDatabaseAction.jsp" method="POST">
-      <div>
-      		Card ID: <input type = "text" name="id" required></input>
-      		Card Title: <input type = "text" name="title" required></input>
+      <div id="loginBox">
+      	<p>Here you can enter a new card for the game to be save on the database.</p>
+      
+      	<form action="InsertDatabaseAction.jsp" method="POST">
+      	<div>
+      		Card ID: <input  id="inputOne" type = "text" name="id" size="5" required></input>
+      		Card Title: <input id="inputTwo" type = "text" name="title" required></input>
       		
-      </div>
+      	</div>
               <p></p>
-      <div>
-            Card Civilisation: <input type = "text" name="civi" required></input>
-            Card Rank: <input type = "text" name="rank" value = "89" required></input>
-      		
-      		
-    
-      		<p><input id="Inputcard" type ="Submit" value="Update Databse" class="btn btn-primary"></input></p>
-      </div>
-      
-      
-      
+      	<div>
+            Card Civilisation: <input id="inputThree" type = "text" name="civi" required></input>
+           
+      		<p><input id="InputcardTwo" type ="Submit" value="Update Databse" class="btn btn-primary"></input></p>
+     	 </div>
       </form>
-      
-      
-          
+      </div>
+
 </body>
 </html>
